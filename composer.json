@@ -1,0 +1,16 @@
+{
+	"name": "dasred/clone-db",
+
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+
+	"require": {
+		"php": ">=5.5",
+		"zendframework/zend-console": "@stable",
+		"ext-pdo": "*"
+	},
+
+	"bin": [
+		"bin/clone-db"
+	]
+}
